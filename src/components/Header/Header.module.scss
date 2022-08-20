@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu{
+        list-style-type: none;
+        padding-right: 10px;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+
+
+        >li{
+        display: inline-block;
+
+        } >a{
+        
+        display: block;
+        font-size: 16px;
+        color: #222;
+        padding: 0 6px;
+            
+
+        }
+    }
+    }
+}
